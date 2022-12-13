@@ -63,6 +63,44 @@
     font-size: 30px;
     margin-top: 19px;
 }
+.banner{
+    background-image:url(/img/banner-tecoffe.jpg);
+    filter: opacity(50%);
+}
+
+.banner{
+    height: 560px;
+  
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.un_gato{
+    font-size: 26px;  
+    color: #000000;
+    position: absolute;
+    transform: translate(30%, -150%);
+    padding-left: 2.9vw;
+    font-weight: 780;
+}
+
+.bi-arrow-down-short{
+    font-size: 45px;
+    border-radius: 50%;
+    padding: 0 12px;  
+    color: #000000;
+    position: absolute;
+    background-color: #d3c6f3;
+    transform: translate(-65%, -80%);
+    right: 20px;
+}
+
+.bi-arrow-down-short:hover{
+    box-shadow: 0px 0px 20px #00000033;
+}
+
+
 
 @media (max-width: 600px) {
     .menu{
@@ -84,6 +122,13 @@
     .menu .login button{
         padding: 9px 45px;
         margin-bottom: 5px;
+    }
+    .banner{
+        height: 70vw; 
+    }
+
+    .un_gato{
+        padding-left: 1.5vw;
     }
 
 }
