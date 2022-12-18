@@ -1,4 +1,6 @@
 /* esta es la oficial */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .menu{
     background-color: #7b64b3;
     display: flex;
@@ -100,9 +102,98 @@
     box-shadow: 0px 0px 20px #00000033;
 }
 
+.dibujo{
+    height: 210px;
+        background-color: rgb(255, 255, 255);
+        margin: 0 30%;
+        padding: auto;
+        
+}
+.titular{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+h1 {
+   font-family: 'Pacifico', cursive;
+    color: #b69fed;
+    height: 50px;
+}
+
+.soyYo{
+    background-color: #ffffff;
+    padding: 150px 80px 80px 1px;
+    margin: 0%;
+}
+
+.titular p{
+    font-size: 20px;
+
+
+}
+
+.Cursos{
+    background: #ffffff;
+}
+
+
+.titulos{
+    padding: 8px 0px 20px 0px;
+    
+}
+.titulo{
+    padding-top: 10px;
+    
+}
+.programa{
+font-size: 18px;
+}
+
+
+.fechas{
+    background: #ffffff00;
+    text-align: right;
+    font-size: 13px;
+    transform: translateY(-10px);
+}
+.item_1{
+    border-left: 4px solid rgb(167, 105, 181);
+    border-collapse: separate;
+    padding-left: 18px;
+}
+
+
+.unaclase{
+    padding-bottom: 30px;
+}
+.fila{
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+
+.unaclase i{
+    color: rgb(149, 149, 149);
+    font-size: 25px;
+    line-height: 2em;
+    margin-left: 1em;
+}
+
+div .unaclase i:hover{
+    color: rgb(102, 36, 255);
+}
+.educacion{
+    text-align: center;
+    padding: 15px 0px 30px 0px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #1b1b1b;
+}
 
 
 @media (max-width: 600px) {
+
     .menu{
         flex-direction: column;
         height: 210px;
@@ -124,11 +215,51 @@
         margin-bottom: 5px;
     }
     .banner{
-        height: 70vw; 
+        height: 400px; 
+    background-size: cover;
+    background-position: center;
     }
 
     .un_gato{
-        padding-left: 1.5vw;
+        padding-left: 0;
+        display: inline;
     }
+    .bi-arrow-down-short{
+       display: none;  
+    }
+.titular{
+    background: #ffffff;
+    width: 30PX;
+    border: 30px solid rgb(255, 255, 255);
 
+}
+.dibujo{
+    padding: auto;
+    margin:0% 30%;
+}
+
+/*.fila{
+    padding-left: 36px;
+    padding-right: 36px;
+
+}*/
+
+.unaclase i{
+    color: rgb(149, 149, 149);
+    font-size: 25px;
+    padding-left: 19px;
+    line-height: 2em;
+}
+.unaclase{
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+    .estaborra{
+        display: none;
+    }
 }
