@@ -1,0 +1,329 @@
+.salir{
+    margin-top: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+.menu{
+    background-color: #7b64b3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    padding: 5px 5%;
+}
+
+.menu .logo_Arg{
+    margin-right: auto;
+}
+
+.menu .logo_Arg img{
+    height: 40px;
+    width: auto;
+}
+
+
+.menu .redes{
+    list-style: none;
+}
+
+
+.menu .redes a{
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+.menu .redes li a:hover{
+    color: #1f044d;
+}
+div .modal-header{
+    background-color: rgb(174, 186, 243);
+    
+}
+
+
+.modal-title{
+    color: rgb(252, 252, 252);
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;    
+    font-size: 5em;
+    margin-left: 40%;
+    padding-top: 2%;
+
+}
+
+
+button.btn-secondary{
+ background-color: rgba(128, 128, 128, 0.705);
+ border: none;
+
+}
+
+button.btn-primary{
+    background-color: #8466cf;
+    border: none;
+
+}
+
+button.btn-primary:hover{
+    background-color: #c8b5fc;
+    border: none;
+
+}
+
+.menu .login button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu .login button:hover{
+    background-color: #e2f1f8;
+    color: #fdcdf9;
+}
+
+.modoEdicion{
+    padding-top: 40px;
+}
+
+.edicion_perfil{
+ padding:2% 15%;
+ padding-bottom: 0;
+}
+
+.titulosEdicion{
+    font-size: 18px;
+    margin: 5px;
+    color: #7b64b3;
+    margin-top: 20px;
+}
+.edicionDerecha{
+    margin-left: 50%;
+}
+
+.imagenBanner{
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5%;
+    
+}
+.imagenBanner:hover{
+    filter: hue-rotate(240deg) brightness(50%);
+}
+
+#fotoperfil{
+max-width: 250px;
+}
+
+
+.educionEdu{
+    padding-top: 80px;
+    margin-bottom: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#edicioneducacion{
+    padding-bottom: 30px;
+}
+
+.unaclase i{
+    color: rgb(149, 149, 149);
+    font-size: 25px;
+    line-height: 2em;
+    margin-left: 5px;
+}
+
+div .unaclase i:hover{
+    color: rgb(102, 36, 255);
+}
+.educacion{
+    text-align: center;
+    padding: 20px 0px 18px 0px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #1b1b1b;
+    
+}
+
+div .modal-header{
+    background-color: rgb(174, 186, 243);
+    
+}
+
+
+.modal-titleEdicion{
+    color: rgb(238, 238, 238);
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;    
+    font-size: 5em;
+    margin-left: 4%;
+    padding-top: 2%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+    .menu{
+        flex-direction: column;
+        height: 210px;
+        padding: 20px;
+
+    }
+    .menu .redes li{
+        display: inline-block;
+        padding-left: 10px;  
+        font-size: 700;  
+    }
+
+    .menu .logo_Arg{
+    margin: auto;
+    }
+ 
+    .menu .login button{
+        padding: 9px 45px;
+        margin-bottom: 5px;
+    }
+    .banner{
+        height: 400px; 
+    background-size: cover;
+    background-position: center;
+    }
+
+    .un_gato{
+        padding-left: 0;
+        display: inline;
+    }
+    .bi-arrow-down-short{
+       display: none;  
+    }
+.titular{
+    background: #ffffff;
+    width: 30PX;
+    border: 30px solid rgb(255, 255, 255);
+
+}
+.dibujo{
+    padding: auto;
+    margin:0% 30%;
+}
+
+/*.fila{
+    padding-left: 36px;
+    padding-right: 36px;
+
+}*/
+
+.unaclase i{
+    color: rgb(149, 149, 149);
+    font-size: 25px;
+    padding-left: 19px;
+    line-height: 2em;
+}
+.unaclase{
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.card{
+    padding: 11% 2%;
+    min-height: 150px;
+    margin: auto;
+    width: 280px;
+    margin-bottom: 50px;
+    max-width: 360px;
+}
+
+.progress{
+    margin: 0 16%;
+  
+}
+
+}
+
+
+@media (min-width: 1200px) {
+    .estaborra{
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 750px) {
+.soft_list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1.0% 0%;
+
+}
+
+
+.soft_list .soft{
+    list-style: none;
+    margin: auto;
+    justify-content:center;
+
+
+}
+
+.soft_list .soft li{
+    display: block;
+    justify-content:center;
+    padding: 10px 20px;  
+    text-align: center;
+}
+
+.soft{
+    margin: 0px;
+    justify-content:center;
+
+}
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
